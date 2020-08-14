@@ -8,7 +8,7 @@ interface Props {
   active: boolean;
 }
 
-const Top: FC<Props> = ({ active }) => {
+const Top: FC<Props> = ({ active }: Props) => {
   AOS.init();
 
   if (active) {

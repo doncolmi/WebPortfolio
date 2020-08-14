@@ -1,11 +1,10 @@
 import React, { FC, useEffect, WheelEvent, useState } from "react";
 import "./Main.css";
 
-import Dots from "./Item/Dots"
+import Dots from "./Item/Dots";
 import Welcome from "./MainItem/Welcome";
 import MyInfo from "./MainItem/MyInfo";
 import Sosik from "./MainItem/Sosik";
-
 
 enum ScrollUpDown {
   UP = 1,
@@ -80,7 +79,7 @@ const Main: FC = () => {
       <Dots currentSection={section} />
       <Welcome />
       <MyInfo />
-        <Sosik />
+      <Sosik />
     </div>
   );
 };
