@@ -1,27 +1,67 @@
 .halfOpacity {
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-  
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.title {
+  font-family: "NotoSansKR";
+  font-weight: 400;
+  font-size: 7em;
+  line-height: 1.2em;
+}
+.exp {
+  font-family: "NotoSansKR";
+  font-weight: 300;
+}
+.login {
+  margin-top: 3em;
+}
+
+.welcome {
+  display: flex;
+  margin-top: 8em;
+}
+.welcome > div {
+  width: 50%;
+}
+.Hello {
+  box-sizing: border-box;
+  padding-left: 6em;
+  display: flex;
+  line-height: 800%;
+  flex-direction: column;
+}
+.HelloBox {
+  background: url(/good.jpg);
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+}
+.Name {
+  font-family: "NotoSansKR";
+  font-weight: 500;
+  font-size: 8em;
+}
+.pf {
+  display: flex;
+  flex-direction: column;
+}
+.Portfolio {
+  font-family: "NotoSansKR";
+  font-weight: 500;
+  font-size: 8em;
+}
+.school {
+  font-family: "NotoSansKR";
+  font-weight: 200;
+  font-size: 2em;
+  line-height: 200%;
+}
+
+@media all and (max-width: 768px) {
   .title {
-    font-family: "NotoSansKR";
-    font-weight: 400;
-    font-size: 7em;
-    line-height: 1.2em;
+    font-size: 5em;
   }
   .exp {
-    font-family: "NotoSansKR";
-    font-weight: 300;
+    font-size: 0.9em;
   }
-  .login {
-      margin-top:3em;
-  }
-  
-  @media all and (max-width: 768px) {
-    .title {
-      font-size: 5em;
-    }
-    .exp {
-      font-size: 0.9em;
-    }
-  }
+}
