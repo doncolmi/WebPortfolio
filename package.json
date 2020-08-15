@@ -39,5 +39,9 @@
     "@types/aos": "^3.0.3",
     "@types/react": "^16.9.46",
     "@types/react-dom": "^16.9.8"
+  },
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.14.7"
   }
 }
