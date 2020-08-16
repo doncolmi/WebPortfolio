@@ -1,67 +1,63 @@
 .flexColumn {
-    flex-direction: column;
-  }
-  
-  .flexCenter {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .icon {
-    width: 75px;
-    height: 75px;
-    border-radius: 1em;
-    border: 2px solid white;
-    background-color: white;
-    display: flex;
+  flex-direction: column;
+}
+
+.flexCenter {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 1em;
+  border: 2px solid white;
+  background-color: white;
+  display: flex;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: .3s;
+  transition: 0.3s;
+}
 
-  }
+.icon img {
+  width: 75px;
+  height: 75px;
+  border-radius: 1em;
+  opacity: 0.8;
+  transition: 0.3s;
+}
 
-  .icon img {
-    width: 75px;
-    height: 75px;
-    border-radius: 1em;
-    opacity: 0.8;
-    transition: 0.3s;
-  }
+.icon:hover img {
+  opacity: 1;
+  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.1);
+}
 
-  .icon:hover img{
-      opacity: 1;
-    box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.1);
+.iconFont {
+  color: gray;
+  font-size: 3em;
+}
 
-  }
+.icons {
+  margin-top: 1.5em;
+  display: flex;
+}
 
-  .iconFont {
-    color: gray;
-    font-size: 3em;
-  }
-  
+.icons div {
+  margin: 0em 0.3em;
+}
+
+.scrollMessage {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.down {
+  box-sizing: content-box;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+@media all and (max-width: 768px) {
   .icons {
-    margin-top: 1.5em;
-    display: flex;
+    display: none;
   }
-  
-  .icons div {
-    margin: 0em 0.3em;
-  }
-  
-  .scrollMessage {
-    font-size: 0.8em;
-    font-weight: 500;
-  }
-  .down {
-    box-sizing: content-box;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-  }
-  
-  
-  @media all and (max-width: 768px) {
-    .icons {
-      display: none;
-    }
-  }
-  
+}

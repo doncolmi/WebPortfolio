@@ -66,10 +66,8 @@ const Middle: FC = () => {
                 </span>
               </div>
               <div className="MiddleBlockContents">
-                <ul>
-                  <li>2019.03 ~ : 한국폴리텍대학 서울강서캠퍼스 재학</li>
-                  <li>2013.03 ~ 2016.02 : 광주 성덕고등학교 졸업</li>
-                </ul>
+                - 2019.03 ~ : 한국폴리텍대학 서울강서캠퍼스 재학
+                <br />- 2013.03 ~ 2016.02 : 광주 성덕고등학교 졸업
               </div>
             </div>
             <div className="MiddleBlock">
@@ -79,14 +77,12 @@ const Middle: FC = () => {
                 </span>
               </div>
               <div className="MiddleBlockContents">
-                <ul>
-                  <li>2020.03 ~ : 한이음 ICT멘토링 프로젝트 참여</li>
-                  <li>2020.08 : 정보처리산업기사 취득</li>
-                </ul>
+                - 2020.03 ~ : 한이음 ICT멘토링 프로젝트 참여
+                <br />- 2020.08 : 정보처리산업기사 취득
               </div>
             </div>
           </div>
-          <div className="ProfileBottom">
+          <div className="ProfileBottoms">
             <Icon Src="/Icon/JS.jpg" Name="JS" Delay="400" />
             <Icon Src="/Icon/TS.png" Name="TS" Delay="500" />
             <Icon Src="/Icon/React.png" Name="React" Delay="600" />
