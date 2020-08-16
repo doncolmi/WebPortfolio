@@ -94,9 +94,9 @@ const SosikReact: FC = () => {
           >
             <div className="SoscikPictureTitle">프로젝트 사진</div>
             <div className="SosikPictures">
-              <img src="/sosikr/1.png" alt="Hello" className="SosikPicture" />
-              <img src="/sosikr/2.png" alt="Hello" className="SosikPicture" />
-              <img src="/sosikr/3.png" alt="Hello" className="SosikPicture" />
+              <img src="/sosikr/1.PNG" alt="Hello" className="SosikPicture" />
+              <img src="/sosikr/2.PNG" alt="Hello" className="SosikPicture" />
+              <img src="/sosikr/3.PNG" alt="Hello" className="SosikPicture" />
             </div>
           </div>
         </div>

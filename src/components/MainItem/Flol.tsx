@@ -90,9 +90,9 @@ const Flol: FC = () => {
           >
             <div className="SoscikPictureTitle">프로젝트 사진</div>
             <div className="FlolPictures">
-              <img src="/flol/1.png" alt="Hello" className="FlolPicture" />
-              <img src="/flol/2.png" alt="Hello" className="FlolPicture" />
-              <img src="/flol/3.png" alt="Hello" className="FlolPicture" />
+              <img src="/flol/1.PNG" alt="Hello" className="FlolPicture" />
+              <img src="/flol/2.PNG" alt="Hello" className="FlolPicture" />
+              <img src="/flol/3.PNG" alt="Hello" className="FlolPicture" />
             </div>
           </div>
         </div>
