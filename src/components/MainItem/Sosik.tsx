@@ -68,7 +68,7 @@ const Middle: FC = () => {
               <div className="PrjName">
                 <span>프로젝트 이름</span>
                 <br />
-                <a>소식</a>
+                <a href="#!">소식</a>
               </div>
               <div className="PrjName subPadding">
                 <span>프로젝트 설명</span>
