@@ -65,4 +65,10 @@
   .video {
     display: none;
   }
+  .w100h100 {
+    height: 100%;
+  }
+  .wrapper {
+    height: 100%;
+  }
 }

@@ -5,6 +5,9 @@ import Dots from "./Item/Dots";
 import Welcome from "./MainItem/Welcome";
 import MyInfo from "./MainItem/MyInfo";
 import Sosik from "./MainItem/Sosik";
+import Wheat from "./MainItem/Wheat";
+import SosikReact from "./MainItem/SosikReact";
+import Flol from "./MainItem/Flol";
 
 enum ScrollUpDown {
   UP = 1,
@@ -80,6 +83,9 @@ const Main: FC = () => {
       <Welcome />
       <MyInfo />
       <Sosik />
+      <SosikReact />
+      <Flol />
+      <Wheat />
     </div>
   );
 };

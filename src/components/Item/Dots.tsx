@@ -15,6 +15,9 @@ const Top: FC<Props> = ({ currentSection }: Props) => {
   const [one, setOne] = useState(false);
   const [two, setTwo] = useState(false);
   const [three, setThree] = useState(false);
+  const [four, setFour] = useState(false);
+  const [five, setFive] = useState(false);
+  const [six, setSix] = useState(false);
 
   const activeDot = (currentSection: number) => {
     if (currentSection === 0) setOne(true);
@@ -23,6 +26,12 @@ const Top: FC<Props> = ({ currentSection }: Props) => {
     else setTwo(false);
     if (currentSection === 2) setThree(true);
     else setThree(false);
+    if (currentSection === 3) setFour(true);
+    else setFour(false);
+    if (currentSection === 4) setFive(true);
+    else setFive(false);
+    if (currentSection === 5) setSix(true);
+    else setSix(false);
   };
 
   useEffect(() => {
@@ -38,6 +47,9 @@ const Top: FC<Props> = ({ currentSection }: Props) => {
       <Dot active={one} />
       <Dot active={two} />
       <Dot active={three} />
+      <Dot active={four} />
+      <Dot active={five} />
+      <Dot active={six} />
     </div>
   );
 };
