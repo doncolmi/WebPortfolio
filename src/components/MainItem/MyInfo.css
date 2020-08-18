@@ -23,7 +23,9 @@
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  background-color: gray;
+  background-image: url(/myProfile.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   margin-bottom: 1em;
 }
 .ProfileName {
