@@ -86,12 +86,20 @@ const Middle: FC = () => {
                 크롤링 기능을 사용하여 뉴스 컨텐츠를 가져와 원하는 언론사와
                 원하는 주제를 설정해 원하는 기사만 볼 수 있게 만든 사이트입니다.
               </div>
-              <div className="PrjName PrjButton">
+              <div className="PrjName PrjButton phone">
                 <span>코드 및 문서</span>
                 <Button text="Express 코드" url={GithubCode1}></Button>
                 <Button text="SpringBoot 코드" url={GithubCode2}></Button>
                 <Button text="화면설계서" url={ppt}></Button>
                 <Button text="WBS" url={excel}></Button>
+              </div>
+              <div className="PrjButton tablet">
+                <div>
+                  <Button text="Express 코드" url={GithubCode1}></Button>
+                  <Button text="SpringBoot 코드" url={GithubCode2}></Button>
+                  <Button text="화면설계서" url={ppt}></Button>
+                  <Button text="WBS" url={excel}></Button>
+                </div>
               </div>
             </div>
           </div>

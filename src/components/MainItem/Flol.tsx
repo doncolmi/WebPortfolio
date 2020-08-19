@@ -9,7 +9,7 @@ const Flol: FC = () => {
   const GithubCode1 = "https://github.com/doncolmi/Flol";
   return (
     <div className="wrapper section">
-      <div className="contents w100h100 flexColumn flexMiddle WheatBg">
+      <div className="contents w100h100 flexColumn flexMiddle FlolBg">
         <div
           className="FlolTop flexColumn flexCenter"
           data-aos="fade-up"
@@ -70,9 +70,14 @@ const Flol: FC = () => {
                 크롤링 기능을 사용하여 뉴스 컨텐츠를 가져와 원하는 언론사와
                 원하는 주제를 설정해 원하는 기사만 볼 수 있게 만든 사이트입니다.
               </div>
-              <div className="PrjName PrjButton">
+              <div className="PrjName PrjButton phone">
                 <span>코드 및 문서</span>
                 <Button text="GitHub" url={GithubCode1}></Button>
+              </div>
+              <div className="PrjButton tablet">
+                <div>
+                  <Button text="GitHub" url={GithubCode1}></Button>
+                </div>
               </div>
             </div>
           </div>

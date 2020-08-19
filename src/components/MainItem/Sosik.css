@@ -129,7 +129,7 @@
   display: none;
 }
 
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
   .SosikMiddle {
     padding: 0%;
   }
@@ -160,6 +160,9 @@
     text-align: center;
     font-family: "NotoSansKR";
   }
+  .tablet {
+    display: none;
+  }
 
   .PrjName a {
     font-size: 1.2em;
@@ -186,5 +189,80 @@
   }
   .SosikBottom {
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SosikMiddle {
+    padding: 0%;
+  }
+  .SosikInfo {
+    flex-direction: column;
+  }
+  .ytb {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .PrjYtb {
+    width: 100%;
+    height: 12em;
+  }
+  .ProjectInfo {
+    display: none;
+  }
+  .SosikHr {
+    display: none;
+  }
+  .SosikPictureWrapper {
+    display: none;
+  }
+  .PrjName {
+    margin-bottom: 1.5em;
+    font-weight: 200;
+  }
+
+  .ProjectMobileInfo {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "NotoSansKR";
+  }
+
+  .PrjName a {
+    font-size: 1.8em;
+  }
+  .PrjName span {
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+  .PrjButton span {
+    font-weight: 500;
+  }
+  .subPadding {
+    padding: 0% 18%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .PrjButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+  .PrjButton button {
+    margin-top: 0em;
+  }
+  .BottomIcons {
+    display: flex;
+    margin-top: 0.5em;
+  }
+  .BottomIcons div {
+    margin: 0em 0.5em;
   }
 }

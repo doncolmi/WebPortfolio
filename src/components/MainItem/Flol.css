@@ -137,7 +137,7 @@
   display: none;
 }
 
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
   .FlolMiddle {
     padding: 0%;
   }
@@ -195,5 +195,82 @@
   }
   .FlolBottom {
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .FlolMiddle {
+    padding: 0%;
+  }
+  .FlolInfo {
+    flex-direction: column;
+  }
+  .Flolytb {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    height: 40em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .PrjYtb {
+    width: 100%;
+    height: 12em;
+  }
+  .ProjectInfo {
+    display: none;
+  }
+  .FlolHr {
+    display: none;
+  }
+  .FlolPictureWrapper {
+    display: none;
+  }
+  .PrjName {
+    margin-bottom: 1.5em;
+    font-weight: 200;
+  }
+
+  .ProjectMobileInfo {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "NotoSansKR";
+  }
+
+  .PrjName a {
+    font-size: 1.8em;
+  }
+  .PrjName span {
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+  .PrjButton span {
+    font-weight: 500;
+  }
+  .subPadding {
+    padding: 0% 18%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .PrjButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+  .PrjButton button {
+    margin-top: 0em;
+  }
+  .BottomIcons {
+    display: flex;
+    margin-top: 0.5em;
+  }
+  .BottomIcons div {
+    margin: 0em 0.5em;
   }
 }

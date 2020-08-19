@@ -73,10 +73,16 @@ const SosikReact: FC = () => {
                 미흡한 점이 많았던 기존 프로젝트 '소 식'을 React 기반으로 다시
                 만드는 프로젝트입니다.
               </div>
-              <div className="PrjName PrjButton">
+              <div className="PrjName PrjButton phone">
                 <span>코드 및 문서</span>
                 <Button text="React 코드" url={GithubCode1}></Button>
                 <Button text="Express 코드" url={GithubCode2}></Button>
+              </div>
+              <div className="PrjButton tablet">
+                <div>
+                  <Button text="React 코드" url={GithubCode1}></Button>
+                  <Button text="Express 코드" url={GithubCode2}></Button>
+                </div>
               </div>
             </div>
           </div>
