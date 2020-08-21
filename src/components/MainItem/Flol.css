@@ -137,7 +137,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .FlolMiddle {
     padding: 0%;
   }
@@ -196,6 +196,9 @@
   .FlolBottom {
     display: none;
   }
+  .tablet {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -252,10 +255,6 @@
     padding: 0% 18%;
   }
 
-  .phone {
-    display: none;
-  }
-
   .PrjButton {
     display: flex;
     flex-direction: column;
@@ -272,5 +271,8 @@
   }
   .BottomIcons div {
     margin: 0em 0.5em;
+  }
+  .phone {
+    display: none;
   }
 }
