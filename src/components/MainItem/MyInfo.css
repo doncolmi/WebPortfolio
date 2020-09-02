@@ -122,12 +122,6 @@
     margin: 0% 10%;
     font-size: 1em;
   }
-  .linkIcon span {
-    color: black;
-    margin: 0% 10%;
-    font-size: 1em;
-    cursor: pointer;
-  }
   .ProfileHr {
     border: 0.5px solid black;
   }
