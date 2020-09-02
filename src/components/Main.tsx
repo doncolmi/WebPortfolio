@@ -82,8 +82,8 @@ const Main: FC = () => {
       <Dots currentSection={section} />
       <Welcome />
       <MyInfo />
-      <Sosik />
       <SosikReact />
+      <Sosik />
       <Flol />
       <Wheat />
     </div>

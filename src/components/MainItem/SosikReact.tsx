@@ -29,7 +29,15 @@ const SosikReact: FC = () => {
           data-aos-duration="500"
         >
           <div className="SosikInfo">
-            <div className="Sosikytb">개발중인 프로젝트입니다.</div>
+            <div className="ytb">
+              <iframe
+                title="SosikYtb"
+                className="PrjYtb"
+                src="https://www.youtube.com/embed/68VzpefdSH4"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
             <div className="ProjectInfo">
               <div className="PrjName">
                 <span>프로젝트 이름 :</span> 소 식(React)

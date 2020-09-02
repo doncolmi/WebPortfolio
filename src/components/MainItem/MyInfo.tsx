@@ -2,9 +2,24 @@ import React, { FC } from "react";
 import "../Main.css";
 import "./MyInfo.css";
 
+import { useToasts } from "react-toast-notifications";
 import Icon from "../Item/Icon";
 
 const Middle: FC = () => {
+  const { addToast } = useToasts();
+  const copyEmail = () => {
+    const tempElem = document.createElement("textarea");
+    tempElem.value = "daeseong0226@gmail.com";
+    document.body.appendChild(tempElem);
+    tempElem.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempElem);
+    addToast("이메일 주소가 복사 되었습니다.", {
+      appearance: "success",
+      autoDismiss: true,
+    });
+  };
+
   return (
     <div className="wrapper section">
       <div className="contents w100h100 flexColumn flexMiddle bgColor">
@@ -39,13 +54,9 @@ const Middle: FC = () => {
               >
                 <i className="fab fa-blogger-b fa-2x"></i>
               </a>
-              <a
-                href="https://www.instagram.com/l2i2m6c/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-instagram fa-2x"></i>
-              </a>
+              <span onClick={copyEmail}>
+                <i className="fas fa-at fa-2x"></i>
+              </span>
             </div>
             <hr className="ProfileHr" />
             <div className="ProfileSubInfo">경력 없는 신입</div>
