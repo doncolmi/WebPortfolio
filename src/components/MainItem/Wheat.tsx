@@ -80,8 +80,8 @@ const Wheat: FC = () => {
               <div className="PrjName subPadding">
                 <span>프로젝트 설명</span>
                 <br />
-                크롤링 기능을 사용하여 뉴스 컨텐츠를 가져와 원하는 언론사와
-                원하는 주제를 설정해 원하는 기사만 볼 수 있게 만든 사이트입니다.
+                JSON 형태의 음식 데이터를 통하여
+                먹을 식사를 추천해주거나 투표할 수 있는 사이트입니다.
               </div>
               <div className="PrjName PrjButton phone">
                 <span>코드 및 문서</span>

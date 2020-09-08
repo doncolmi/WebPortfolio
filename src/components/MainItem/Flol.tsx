@@ -67,8 +67,9 @@ const Flol: FC = () => {
               <div className="PrjName subPadding">
                 <span>프로젝트 설명</span>
                 <br />
-                크롤링 기능을 사용하여 뉴스 컨텐츠를 가져와 원하는 언론사와
-                원하는 주제를 설정해 원하는 기사만 볼 수 있게 만든 사이트입니다.
+                게임 '리그 오브 레전드' 유저 전적
+                검색 및, 유저 그룹을 생성하여 게임 유저들끼리 커뮤니케이션을
+                하기 위한 사이트입니다.
               </div>
               <div className="PrjName PrjButton phone">
                 <span>코드 및 문서</span>
