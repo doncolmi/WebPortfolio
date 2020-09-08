@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import "./css/LinkIcon.css";
 
 import { useToasts } from "react-toast-notifications";
 
