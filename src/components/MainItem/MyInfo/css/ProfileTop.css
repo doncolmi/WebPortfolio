@@ -1,0 +1,63 @@
+.ProfileTop {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.ProfileHr {
+  width: 100%;
+  margin: 1em 0em;
+  border: 1px solid black;
+}
+.ProfileName {
+  font-family: "NotoSansKR";
+  font-weight: 500;
+  font-size: 3em;
+}
+.ProfileSubInfo {
+  font-family: "NotoSansKR";
+  font-weight: 300;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.linkIcon {
+  width: 100%;
+  text-align: center;
+}
+.linkIcon a {
+  color: black;
+  margin: 0% 1%;
+}
+.linkIcon span {
+  color: black;
+  margin: 0% 1%;
+  font-size: 1em;
+  cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .linkIcon a {
+    color: black;
+    margin: 0% 10%;
+    font-size: 1em;
+  }
+  .ProfileHr {
+    border: 0.5px solid black;
+  }
+
+  .ProfileName {
+    font-size: 2em;
+  }
+}
+@media (max-width: 767px) {
+  .linkIcon a {
+    color: black;
+    margin: 0% 5%;
+    font-size: 0.7em;
+  }
+  .ProfileHr {
+    border: 0.5px solid black;
+  }
+  .ProfileName {
+    font-size: 2em;
+  }
+}

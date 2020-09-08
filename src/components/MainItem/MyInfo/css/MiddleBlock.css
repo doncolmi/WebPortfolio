@@ -1,0 +1,58 @@
+.MiddleBlockTitle {
+  text-align: center;
+  font-size: 2em;
+}
+.MiddleBlock {
+  border-radius: 2em;
+  padding: 3%;
+  margin: 0% 1%;
+  width: 48%;
+  background-color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.MiddleBlock:hover {
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-7px);
+}
+.MiddleBlockContents {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .MiddleBlock {
+    border-radius: 2em;
+    padding: 4%;
+    margin: 5% 0%;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .MiddleBlockTitle {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  .MiddleBlockContents {
+    font-weight: 300;
+    font-size: 1em;
+  }
+}
+@media (max-width: 767px) {
+  .MiddleBlock {
+    border-radius: 2em;
+    padding: 3%;
+    margin: 5% 0%;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .MiddleBlockTitle {
+    font-size: 1.5em;
+  }
+  .MiddleBlockContents {
+    font-size: 0.75em;
+  }
+}

@@ -1,0 +1,24 @@
+.MyInfoTitle {
+  font-family: "NotoSansKR";
+  font-weight: 500;
+  font-size: 3em;
+  color: white;
+}
+.MyInfoTop {
+  width: 100%;
+  height: 15%;
+}
+.MyInfoBg {
+  background-color: #fdd692;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .MyInfoTop {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .MyInfoTop {
+    display: none;
+  }
+}

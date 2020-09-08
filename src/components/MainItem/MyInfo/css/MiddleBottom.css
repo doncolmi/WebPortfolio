@@ -1,0 +1,56 @@
+.ProfileCenter {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ProfileMiddle {
+  margin-top: 1.5%;
+  width: 50%;
+  display: flex;
+}
+
+.middleBottom {
+  font-family: "NotoSansKR";
+  width: 100%;
+  height: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .middleBottom {
+    font-family: "NotoSansKR";
+    width: 100%;
+    height: auto;
+  }
+
+  .middleBottom {
+    margin-top: 2.5em;
+  }
+
+  .ProfileMiddle {
+    width: 70%;
+    display: flex;
+    margin-top: 1%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .middleBottom {
+    margin-top: 0em;
+  }
+
+  .middleBottom {
+    margin-top: 2.5em;
+  }
+
+  .ProfileMiddle {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
