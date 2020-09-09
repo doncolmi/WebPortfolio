@@ -2,12 +2,6 @@
   z-index: -1;
 }
 
-.w100h100 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
 .flex {
   display: flex;
 }
@@ -20,19 +14,9 @@
   align-items: center;
 }
 
-.wrapper {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
 .wrapImg {
   /* background-image: url("/Sand.gif"); */
   background-size: cover;
-}
-
-.contents {
-  z-index: 3;
 }
 
 .sign {
@@ -65,12 +49,6 @@
   .video {
     display: none;
   }
-  .w100h100 {
-    height: 100%;
-  }
-  .wrapper {
-    height: 100%;
-  }
 }
 
 @media (max-width: 767px) {
@@ -91,11 +69,5 @@
   }
   .video {
     display: none;
-  }
-  .w100h100 {
-    height: 100%;
-  }
-  .wrapper {
-    height: 100%;
   }
 }

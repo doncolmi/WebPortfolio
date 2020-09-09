@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import "./Button.css";
 
-interface Props {
+export interface Props {
   text: string;
   url: string;
 }

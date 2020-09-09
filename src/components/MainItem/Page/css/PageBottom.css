@@ -1,0 +1,34 @@
+.PageBottom {
+  width: 100%;
+  position: absolute;
+  bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PageBottom span {
+  font-family: "NotoSansKR";
+  font-size: 0.9em;
+}
+.BottomIcons {
+  display: flex;
+  margin-top: 0.5em;
+}
+.BottomIcons div {
+  margin: 0em 0.5em;
+}
+@media (max-width: 767px) {
+  .PageBottom {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .BottomIcons {
+    display: flex;
+    margin-top: 0.5em;
+  }
+  .BottomIcons div {
+    margin: 0em 0.5em;
+  }
+}
