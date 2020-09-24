@@ -3,6 +3,10 @@ import { Props as btnProps } from "../components/Item/Button";
 
 const btns: Array<btnProps> = [
   {
+    text: "Live Demo",
+    url: "https://sosik.limc-pf.com/",
+  },
+  {
     text: "React 코드",
     url: "https://github.com/doncolmi/doncolmi-typescript-react-practice",
   },
@@ -41,11 +45,15 @@ const page: iP.iPage = {
         },
         elements: [
           {
-            title: "Back-End :",
-            contents: " Node.js, TypeScript, Express, Mongoose",
+            title: "Back-End, DB :",
+            contents: " Node.js, TypeScript, Express, Mongoose, MongoDB",
           },
           { title: "Front-End :", contents: " Node.js, TypeScript, React" },
-          { title: "DB :", contents: " MongoDB" },
+          {
+            title: "Cloud :",
+            contents:
+              " AWS lightsail, Amazon Linux2, nginx, Let's Encrypt(SSL)",
+          },
         ],
       },
       prjMob: {
