@@ -80,6 +80,7 @@ const page: iP.iPage = {
       "/Icon/TS.png",
       "/Icon/React.png",
       "/Icon/Mongo.png",
+      "/Icon/Nginx.png",
     ],
   },
 };
